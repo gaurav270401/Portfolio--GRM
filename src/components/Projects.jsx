@@ -121,26 +121,26 @@ const Projects = ({projectsRef}) =>{
             <Heading>My Projects</Heading>
             <CardBox>
             <ActionAreaCardContainer>
-                        <ActionAreaCard githubUrl="https://github.com/gaurav270401/BlogWebApp.git" image="AllTunedIn.jpg" alt="AllTunedIn" Title="AllTunedIn-Blog Website" />
+                        <ActionAreaCard githubUrl="https://github.com/gaurav270401/BlogWebApp.git" image="AllTunedIn.JPG" alt="AllTunedIn" Title="AllTunedIn-Blog Website" />
                     </ActionAreaCardContainer>
                     <ActionAreaCardContainer>
-                        <ActionAreaCard   image="Mobile.jpg" githubUrl="https://github.com/gaurav270401/Mobile_Ordering_App.git" websiteUrl="https://mobile-ordering-app-hhsm.vercel.app/"  alt="Mobile Ordering App Clone" Title="Mobile Ordering App Clone" />
+                        <ActionAreaCard   image="Mobile.JPG" githubUrl="https://github.com/gaurav270401/Mobile_Ordering_App.git" websiteUrl="https://mobile-ordering-app-hhsm.vercel.app/"  alt="Mobile Ordering App Clone" Title="Mobile Ordering App Clone" />
                     </ActionAreaCardContainer>
                     <ActionAreaCardContainer>
-                        <ActionAreaCard githubUrl="https://github.com/gaurav270401/CRUD-WebApp.git" websiteUrl="https://webapp-crud-091826.netlify.app/" image="CRUD.jpg" alt="CRUD" Title="CRUD App" />
+                        <ActionAreaCard githubUrl="https://github.com/gaurav270401/CRUD-WebApp.git" websiteUrl="https://webapp-crud-091826.netlify.app/" image="CRUD.JPG" alt="CRUD" Title="CRUD App" />
                     </ActionAreaCardContainer>
                 {/* </CardBox>
                 <CardBox> */}
                     <ActionAreaCardContainer>
-                        <ActionAreaCard githubUrl="https://github.com/gaurav270401/Task_Management_App.git" websiteUrl="https://drive.google.com/file/d/1doz9_rEbAbjb9sQ6ZpKfai1AuGxpf16J/view?usp=drive_link" image="Task_management_app.jpg" alt="Task Management App" Title="Task Management App" />
+                        <ActionAreaCard githubUrl="https://github.com/gaurav270401/Task_Management_App.git" websiteUrl="https://drive.google.com/file/d/1doz9_rEbAbjb9sQ6ZpKfai1AuGxpf16J/view?usp=drive_link" image="Task_management_app.JPG" alt="Task Management App" Title="Task Management App" />
                     </ActionAreaCardContainer>
                     <ActionAreaCardContainer>
                        
-                        <ActionAreaCard githubUrl="https://github.com/gaurav270401/hacker_news.git" websiteUrl="https://hacker-news-387a44.netlify.app/" image="Hacker_News.jpg" alt="HackerNews" Title="HackerNews" />
+                        <ActionAreaCard githubUrl="https://github.com/gaurav270401/hacker_news.git" websiteUrl="https://hacker-news-387a44.netlify.app/" image="Hacker_News.JPG" alt="HackerNews" Title="HackerNews" />
                     </ActionAreaCardContainer>
                     <ActionAreaCardContainer>
                        
-                        <ActionAreaCard githubUrl="https://github.com/gaurav270401/hacker_news.git" websiteUrl="https://hacker-news-387a44.netlify.app/" image="Hacker_News.jpg" alt="HackerNews" Title="HackerNews" />
+                        <ActionAreaCard githubUrl="https://github.com/gaurav270401/hacker_news.git" websiteUrl="https://hacker-news-387a44.netlify.app/" image="Hacker_News.JPG" alt="HackerNews" Title="HackerNews" />
                     </ActionAreaCardContainer>
             </CardBox>
                

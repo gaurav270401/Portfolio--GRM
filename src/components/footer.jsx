@@ -33,10 +33,10 @@ const Box1=styled(Box) (({ theme }) => css`
     @media screen and (min-width: 481px) and (max-width: 767px) {
         padding-right: 10px;
       padding-left: 10px;
-      margin-right: 1.5rem;
-      margin-left: 1.5rem;
+      margin-right: 1rem;
+      margin-left: 1rem;
     }
-    @media (min-width: 768px) and (max-width: 1024px){
+    @media (min-width: 768px) and (max-width: 1280px){
       padding-right: 10px;
       padding-left: 10px;
       margin-right: 1.5rem;
@@ -60,20 +60,31 @@ const Box2=styled(Grid)(({ theme }) => css`
     text-align:left;
     }
 
-    @media screen and (min-width: 481px) and (max-width: 767px) {
-      display: grid;
-    grid-template-columns: repeat(
-        auto-fill,
-        minmax(195px, 1rem)
-    );
+    @media screen and (min-width: 481px) and (max-width: 600px) {
+      margin-bottom: 3rem;
+    display:flex;
+    flex-direction:column;
+    align-items:top;
+    justify-content:left;
+    text-align:left;
+    }
+    
+    @media screen and (min-width: 601px) and (max-width: 767px) {
+      flex-wrap: wrap; 
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
 
-    @media (min-width: 768px) and (max-width: 1024px){
-      display: grid;
+    @media (min-width: 768px) and (max-width: 1280px){
+      ${'' /* display: grid;
     grid-template-columns: repeat(
         auto-fill,
         minmax(220px, 1rem)
-    );
+    ); */}
+
+        flex-wrap: wrap; 
+        margin-right: 2rem;
+        margin-left: 2rem;  
         }
 
         ${'' /* @media (min-width: 1025px) and (max-width: 1280px){
@@ -98,26 +109,48 @@ const Grid1=styled(Grid)(({ theme }) => css`
     position: relative;
     }
 
-    @media screen and (min-width: 481px) and (max-width: 767px) {
+    @media screen and (min-width: 481px) and (max-width: 600px) {
       width:100%;
-    padding-right: 10px;
-    padding-left: 10px;
+   padding-right: 25px;
+    padding-left: 25px;
     position: relative;
     }
-    @media (min-width: 768px) and (max-width: 1024px){
-      width:100%;
-    padding-right: 10px;
-    padding-left: 10px;
-    position: relative;
-    margin-bottom:10px;
+
+    @media screen and (min-width: 601px) and (max-width: 767px) {
+      width:40%;
+        height:100%;
+        display:flex;
+        flex-direction:column;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top:10px;
+        margin-bottom:10px;
+ 
+        justify-content:center;
+    }
+    @media (min-width: 768px) and (max-width: 1210px){
+        width:42%;
+        height:100%;
+        display:flex;
+        flex-direction:column;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top:10px;
+        margin-bottom:10px;
+ 
+        justify-content:center;
         }
-        @media (min-width:1025px) and (max-width: 1280px){
+        ${'' /* @media (min-width:1025px) and (max-width: 1280px){
          
     padding-right: 0px;
     padding-left: 0px;
     position: relative;
     margin-bottom:10px;
-        }
+        } */}
 
     
 `);
@@ -130,7 +163,7 @@ const Text=styled(Typography)(({ theme }) => css`
     justify-content:center;
     text-align:justify;
 
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 600px){
       color: #fff;
     margin-bottom: 40px;
     font-size: 22px;
@@ -150,7 +183,7 @@ const Para=styled(Typography)`
 `
 const Item=styled(ListItem)(({ theme }) => css`
     color: rgba(255, 255, 255, 0.7);
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 600px){
       
   
       padding:10px 0;
@@ -158,12 +191,12 @@ const Item=styled(ListItem)(({ theme }) => css`
       
     }
     
-    @media screen and (min-width: 481px) and (max-width: 767px) {
+    @media screen and (min-width: 601px) and (max-width: 767px) {
       padding:10px 0;
-      text-align:left;
+      text-align:justify;
     }
 
-    @media (min-width: 768px) and (max-width: 1024px){
+    @media (min-width: 768px) and (max-width: 1340px){
       padding:10px 0;
       text-align:justify;
         }
@@ -176,7 +209,7 @@ const Section=styled(Typography)(({ theme }) => css`
     margin: 0 auto;
     cursor:pointer;
     text-align:left;
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 600px){
       width:0%;
       margin: 0 10px;
       text-align:left;
@@ -186,7 +219,7 @@ const Section=styled(Typography)(({ theme }) => css`
 const Section1=styled(Typography)`
     margin-left: 40px;
     cursor:pointer;
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 600px){
       width:100%;
       margin: 0 10px;
       text-align:left;
@@ -198,11 +231,12 @@ const Box3 =styled(Box)(({ theme }) => css`
      width: 50%;
     margin: 0 auto;
     text-indent:50%;
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 600px){
       width: 100%;
       margin: 0 0;
       text-indent:0%;
-    },
+    }
+   
    
 `);
 const Box4 =styled(Box)(({ theme }) => css`
@@ -210,14 +244,15 @@ const Box4 =styled(Box)(({ theme }) => css`
     ${'' /* margin: 0 auto; */}
     ${'' /* text-indent:50%; */}
     margin-left:25px;
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 600px){
       width: 100%;
       margin-left:0px;
     },
 `);
 
 const Arrow=styled(ArrowRightAltIcon)`
-    text-align:left;
+  
+    ${'' /* margin-left:-25px; */}
     color: rgba(255, 255, 255, 0.7);
    
 `;
@@ -260,6 +295,10 @@ const IconLink1 = styled("a")`
   }
 `;
 
+const Arrow1=styled(Arrow)`
+  display:flex;
+  justify-content:left;
+`;
 
 
 
@@ -324,15 +363,15 @@ const Footer = ({homeRef,aboutRef,resumeRef,servicesRef,projectsRef,contactsRef}
                         <Grid1 >
                     <Text>Links</Text>
                     <Box3>
-                        <Item><Arrow/>
+                        <Item><Arrow1/>
                         <Section onClick={scrollToHome}>Home</Section></Item>
-                        <Item><Arrow/>
+                        <Item><Arrow1/>
                         <Section onClick={scrollToAbout}>About</Section></Item>
-                        <Item><Arrow/>
+                        <Item><Arrow1/>
                         <Section onClick={scrollToServices}>Services</Section></Item>
-                        <Item><Arrow/>
+                        <Item><Arrow1/>
                         <Section onClick={scrollToProjects}>Projects</Section></Item>
-                        <Item><Arrow/>
+                        <Item><Arrow1/>
                         <Section onClick={scrollToContacts}>Contact</Section></Item>
                     </Box3>
                     
@@ -340,11 +379,11 @@ const Footer = ({homeRef,aboutRef,resumeRef,servicesRef,projectsRef,contactsRef}
                 <Grid1 >
                 <Text>Services</Text>
                 <Box4>
-                        <Item><Arrow/>
+                        <Item><Arrow1/>
                         <Section1 onClick={scrollToServices}>Software Development</Section1></Item>
-                        <Item><Arrow/>
+                        <Item><Arrow1/>
                         <Section1 onClick={scrollToServices}>Full-Stack Development</Section1></Item>
-                        <Item><Arrow/>
+                        <Item><Arrow1/>
                         <Section1 onClick={scrollToServices}>Web Development</Section1></Item>
                     </Box4>
                 </Grid1>

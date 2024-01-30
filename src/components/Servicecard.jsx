@@ -19,11 +19,8 @@ const StyledCard = styled(Card) (({ theme }) => css`
   }
 
   @media screen and (max-width: 480px){
-      width:298px;
-      display:flex;
-      flex-direction:column;
-        align-items:center;
-        justify-content:center;
+      width:100%;
+      margin: 20px 0px;
         height:350px;
     } 
 
@@ -34,6 +31,7 @@ const StyledCard = styled(Card) (({ theme }) => css`
         margin-top:10px;
         margin-bottom:10px;
         height:350px;
+        margin: 20px 0px;
         ${'' /* justify-content:center; */}
     }
 `);

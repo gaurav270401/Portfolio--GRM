@@ -41,14 +41,14 @@ const CardBox=styled(Box)(({ theme }) => css`
     @media screen and (max-width: 480px){
         ${'' /* width:100%; */}
         display:flex;
-        flex-direction:column;
+         flex-direction:column;
         margin-bottom:5px;
         margin-top:5px;
-        margin-right: 1rem;
-        margin-left: 1rem;
-        align-items:center;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        ${'' /*align-items:center;
         justify-content:center;
-        text-align:center;
+        text-align:center; */}
     }
     
     @media screen and (min-width: 481px) and (max-width: 767px) {

@@ -1,6 +1,6 @@
 import About from "./About";
 import Banner from "./Banner";
-import Contact from "./Contact Me";
+import Contact from "./Contact_Me";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import Services from "./Services";

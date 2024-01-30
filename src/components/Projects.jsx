@@ -37,6 +37,7 @@ const CardBox=styled(Box)(({ theme }) => css`
 
     @media screen and (max-width: 480px){
         ${'' /* width:100%; */}
+        
         display:flex;
         flex-direction:column;
         margin-bottom:5px;

@@ -132,6 +132,10 @@ const Projects = ({projectsRef}) =>{
                     </ActionAreaCardContainer>
                 {/* </CardBox>
                 <CardBox> */}
+                <ActionAreaCardContainer>
+                       
+                       <ActionAreaCard githubUrl="https://github.com/gaurav270401/Portfolio--GRM.git" websiteUrl="https://portfolio-grm-1cb8.vercel.app/" image="Portfolio.JPG" alt="Portfolio" Title="Personal Portfolio" />
+                   </ActionAreaCardContainer>
                     <ActionAreaCardContainer>
                         <ActionAreaCard githubUrl="https://github.com/gaurav270401/Task_Management_App.git" websiteUrl="https://drive.google.com/file/d/1doz9_rEbAbjb9sQ6ZpKfai1AuGxpf16J/view?usp=drive_link" image="Task_management_app.JPG" alt="Task Management App" Title="Task Management App" />
                     </ActionAreaCardContainer>
@@ -139,10 +143,7 @@ const Projects = ({projectsRef}) =>{
                        
                         <ActionAreaCard githubUrl="https://github.com/gaurav270401/hacker_news.git" websiteUrl="https://hacker-news-387a44.netlify.app/" image="Hacker_News.JPG" alt="HackerNews" Title="HackerNews" />
                     </ActionAreaCardContainer>
-                    <ActionAreaCardContainer>
-                       
-                        <ActionAreaCard githubUrl="https://github.com/gaurav270401/hacker_news.git" websiteUrl="https://hacker-news-387a44.netlify.app/" image="Hacker_News.JPG" alt="HackerNews" Title="HackerNews" />
-                    </ActionAreaCardContainer>
+                    
             </CardBox>
                
             

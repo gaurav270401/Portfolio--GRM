@@ -156,9 +156,9 @@ const Links=styled("a")`
  color:#0000FF;
  cursor:pointer;
 
- &:visited{
+ ${'' /* &:visited{
     color:#800080;
- }
+ } */}
 `
 
 const Contact = ({contactsRef}) =>{
@@ -192,7 +192,7 @@ const Contact = ({contactsRef}) =>{
                                 <PhoneIcon1/>
                             </IconBox>
                             <Text>Contact Number</Text>
-                            <Links href="tel://830874491">+91-8308744291</Links>
+                            <Links href="tel://830874491">+918308744291</Links>
                         </Box> 
                     </Card1>
                     <Card1>
@@ -210,7 +210,7 @@ const Contact = ({contactsRef}) =>{
                                 <WebIcon1/>
                             </IconBox>
                             <Text>Website</Text>
-                            <Links href="">portfolio.com</Links>
+                            <Links href="https://portfolio-grm-1cb8.vercel.app/">portfolio.com</Links>
                         </Box>  
                     </Card1>
                 </CardBox>
